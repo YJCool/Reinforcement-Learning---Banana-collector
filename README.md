@@ -11,3 +11,23 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
     3 - turn right.
 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
+
+
+## Installation
+
+This project is tested under the following environment:
+* Anaconda
+* Python 3.6
+* Window 10 64bits
+    
+
+0. As always, Clone Respository before anything else
+
+       conda create --name drlnd python=3.6 
+       activate drlnd
+       
+       git clone https://github.com/udacity/deep-reinforcement-learning.git
+       cd deep-reinforcement-learning/python
+       pip install .
+       
+       
